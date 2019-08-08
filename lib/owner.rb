@@ -27,6 +27,7 @@ class Owner
     @@all.clear
   end
   
+  def
   
   
   
