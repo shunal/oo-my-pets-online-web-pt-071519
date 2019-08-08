@@ -41,8 +41,10 @@ class Owner
   
   def buy_cat(name)
     Cat.all.select do |cat|
-      cat.name == name
-      binding.pry
+      cat.name == name?
+      bindin.pry
+        
+      
     end
   end
   
