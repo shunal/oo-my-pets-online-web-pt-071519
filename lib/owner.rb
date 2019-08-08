@@ -31,7 +31,7 @@ class Owner
     Cat.all.select do |cat|
       cat.owner == self
     end
-    end
+  end
     
   def dogs 
     Dog.all.select do |dog|
