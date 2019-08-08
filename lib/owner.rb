@@ -23,6 +23,10 @@ class Owner
     @@all.count
   end
   
+  def reset_all
+    @@all.reset
+  end
+  
   
   
   
