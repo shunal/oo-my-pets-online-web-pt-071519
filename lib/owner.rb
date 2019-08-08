@@ -43,6 +43,7 @@ class Owner
     Cat.all.select do |cat|
       cat.name == name
       binding.pry
+    end
   end
   
   
