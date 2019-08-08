@@ -27,7 +27,10 @@ class Owner
     @@all.clear
   end
   
-  def
+  def cats
+    Cats.all.select do |cat|
+      cat.owner == self
+  end 
   
   
   
